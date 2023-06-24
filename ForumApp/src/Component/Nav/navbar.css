@@ -1,0 +1,12 @@
+.navbar{
+    height:50px;
+    background-color: aliceblue;
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.navbar>h2{
+    margin-left: 50px;
+}

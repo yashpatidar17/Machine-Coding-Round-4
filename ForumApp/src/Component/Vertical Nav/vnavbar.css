@@ -1,0 +1,23 @@
+.verticle-navbar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.vnav-profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.v-nav{
+    height: 100vh;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    background-color: rgb(243, 225, 209);
+    align-items: center;
+    padding: 10px;
+}

@@ -1,0 +1,42 @@
+.post-con{
+    display:flex;
+    flex-direction:column;
+    
+}
+
+
+.post-con-first{
+    display:flex;
+    flex-direction:row;
+    gap: 130px;
+}
+
+.comment-container{
+    display:flex;
+    flex-direction:row;
+    /* align-items: center; */
+    gap: 15px;
+}
+
+.comment-container-first{
+    display:flex;
+    flex-direction:column;
+    gap:0;
+}
+
+.post-comment{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items: start;
+}
+.comment-con{
+    margin-left: 0;
+}
+
+.post-icon-tray{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}

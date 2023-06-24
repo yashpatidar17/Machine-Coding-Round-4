@@ -1,0 +1,51 @@
+.post-container{
+    display:flex;
+    flex-direction:column;
+    gap: 15px;
+}
+.post-card-container{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    gap: 10px;
+    width: 800px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.post-profile{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+    align-items: center;
+}
+
+.profiel-pic{
+    width: 50px;
+    height: 50px;
+}
+
+.post-tags{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    
+}
+
+.post-des>p{
+    display: flex;
+    justify-content: flex-start;
+    align-items:start;
+}
+
+.post-icon-tray{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.post-card-container-first{
+    display: flex;
+    flex-direction: column;
+}
